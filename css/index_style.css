@@ -1,0 +1,215 @@
+h2{
+    border:2px solid #f00;
+    padding:20px
+
+}
+#loading{
+    background-color: #09c;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index:4344;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 30px;
+    right:20px;
+    display: none
+}
+
+.options{
+    position: fixed;
+    left:0;
+    top:200px
+}
+.options .color-options{
+    background-color: gray;
+    float:left;
+    padding:10px;
+    border:2px solid #fed136;
+    
+
+}
+.options .color-options ul li{
+    width:25px;
+    height: 25px;
+    background-color: tomato;
+    display: inline-block;
+}
+
+.test{
+    width:300px;
+    height: 300px;
+    background-color: #09c;
+    padding:20px;
+    border:5px solid #f00;
+    margin:30px
+}
+.test2{
+    border-radius:50%
+}
+
+
+
+
+
+
+
+.options i{
+    background-color:#fed136;
+    float: left;
+    padding:10px
+}
+body{
+    height: 3000px;
+    overflow: hidden;
+}
+#categ{
+    height: 600px;
+    background-color: teal;
+}
+#contacts{
+
+    height: 600px;
+    background-color:red;
+}
+#port{
+
+    height: 600px;
+    background-color:yellow
+}
+
+
+.test{
+    width: 300px;
+    height: 300px;
+    background-color: #09c
+}
+header{
+    height:650px;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    
+
+}
+.navbar .navbar-brand{
+    color: #fed136;
+    font-size: 30px;
+}
+.navbar .nav-item .nav-link{
+    color:#fff;
+    font-size:20px;
+    text-transform: uppercase;
+    padding: 0 20px
+}
+
+
+.navbar .nav-item .nav-link:hover,.navbar .navbar-brand:hover{
+    color: #fed136;
+
+}
+.caption p{
+    font-size:50px
+}
+.caption h1{
+    font-size: 70px;
+}
+.caption a{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.advisors{
+}
+.advisor{
+    position: relative;
+    overflow: hidden;
+
+}
+.advisor .caption{
+    background-color: #fff;
+    position: absolute;
+    left:15px;
+    bottom: 15px;
+    right:15px;
+    transition:all 1s;
+    transition-delay: 0.3s;
+}
+
+.advisor .advisor-overlay{
+    background-color: rgba(0, 33, 71, 0.7);
+    position:absolute;
+    bottom:100%;
+    left:15px;
+    right: 15px;
+    height:93%;
+    color:#fff;
+    transition:all 1s
+}
+.advisor:hover .advisor-overlay{
+    bottom:15px
+}
+.advisor:hover .caption{
+    bottom:-100%
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active,.nav-tabs .nav-link:hover{
+    border:none
+}
+.nav-tabs .nav-link{
+    color:#000
+}
+
+.nav-tabs .nav-link.active{
+    color:#ff305b
+}
+
+@media (max-width:991px)
+{
+    .navbar{
+        background-color: #212529;
+    }
+    .navbar .navbar-toggler{
+        background-color: #fed136;;
+    }
+}
+
+
+.wrapper{
+    background-color: gray;
+    text-align: center;
+    overflow: auto;
+    width:2px;
+    height: 2px;
+    
+}
+.wrapper .item{
+    width:33.333%;
+    float: left;
+    padding:20px;
+    display: none;
+}
+.wrapper h1{
+    display:none;
+}
+.car-wrapper{
+    background-color: gray;
+    width:70%;
+    margin: auto;
+}
+.car-wrapper .main-img{
+    width: 100%;
+}
+.car-wrapper .sub-img{
+    width:25%;
+    float: left;
+}
+
